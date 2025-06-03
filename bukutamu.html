@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hubungi Kami</title>
+    
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="style2.css">
+
+     <!-- Bootstrap Bundle JS (including Popper for modals) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Vanilla Tilt JS -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.2/dist/vanilla-tilt.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <nav class="navigation">
+        <a href="index.html">Beranda</a>
+        <a href="index.html">Wisata</a>
+        <a href="kuliner.html">Kuliner</a>
+        <a href="bukutamu.html" class="active">Hubungi Kami</a>
+       <button id="toggle-dark" class="toggle-dark" title="Ganti Mode">
+            <i class="fas fa-moon"></i>
+            </button>
+
+
+    </nav>
+
+    <section class="buku-tamu">
+        <h1><i class="bi bi-envelope-fill me-2"></i>Hubungi Kami</h1>
+        <form action="#" method="post">
+            <label for="nama">Nama:</label>
+            <input type="text" id="nama" name="nama" placeholder="Masukkan nama Anda" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="contoh@email.com" required>
+
+            <label for="telepon">Telepon:</label>
+            <input type="tel" id="telepon" name="telepon" placeholder="08xxxxxxxxxx" required>
+
+            <label for="pesan">Pesan:</label>
+            <textarea id="pesan" name="pesan" rows="4" placeholder="Tulis pesan Anda di sini..." required></textarea>
+
+            <button type="submit"><i class="bi bi-send-fill me-2"></i>Kirim Pesan</button>
+        </form>
+    </section>
+
+
+    <footer class="relax-footer">
+  <div class="footer-inner">
+   
+    <div class="footer-col">
+      <h4>Tentang Bantul</h4>
+      <ul>
+        <li><a href="index.html">Profil Daerah</a></li>
+        <li><a href="index.html">Wisata</a></li>
+        <li><a href="kuliner.html">Kuliner</a></li>
+        <li><a href="bukutamu.html">Kritik & Saran</a></li>
+      </ul>
+    </div>
+
+    
+    <div class="footer-col">
+      <h4>Telepon & Peta</h4>
+      <ul>
+        <li> (0274) 367509.</li>
+         <li><a href="https://g.co/kgs/2DGxCsC" target="_blank">Akses & Peta Kabupaten Bantul</a></li>
+      </ul>
+       <h4>Kantor</h4>
+      <ul>
+         <li><a href="https://g.co/kgs/BwPQmR3" target="_blank">38XX+28C kantor pemkab, Area Sawah, Trirenggo, Kec. Bantul, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55714</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Dapatkan info wisata & acara terbaru langsung ke email kamu.</p>
+      <form class="newsletter-form" action="mailto:info@bantulwisata.id" method="post" enctype="text/plain">
+        <input type="email" placeholder="Email kamu..." name="email" required>
+        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+      </form>
+    </div>
+
+    
+    <div class="footer-col">
+      <h4>Temui Kami</h4>
+      <div class="social-relax">
+        <a href="https://www.facebook.com/pemkabbantul/?locale=id_ID" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/pemkabbantul/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@pemkabbantul" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.youtube.com/channel/UC3XfkK2AGWbJC9zINJQZUzw" target="_blank"><i class="fab fa-youtube"></i></a>
+       <a href="diskominfo@bantulkab.go.id"><i class="fas fa-envelope"></i></a>
+      </div>
+      <p style="margin-top: 12px;">&copy; 2025 Bantul Wisata</p>
+    </div>
+  </div>
+</footer>
+
+ <script src="script.js"></script>
+</body>
+</html>
